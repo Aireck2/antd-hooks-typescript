@@ -1,8 +1,12 @@
 import React from "react";
-import BasicLayout from "./Components/BasicLayout";
+import BasiscLayout from "./Components/BasicLayout";
 
 const App: React.FC = () => {
-  return <BasicLayout />;
+  return (
+    <>
+      <BasiscLayout />
+    </>
+  );
 };
 
 export default App;
